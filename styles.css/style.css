@@ -84,7 +84,7 @@ body{
 }
 
 .sub_contimer h1{
-    font-size: 52px;
+    font-size: 50px;
     font-weight: bold;
 }
 
@@ -195,4 +195,84 @@ body{
 
 /* <!-- popular collection section end --> */
 
+
+/* <!-- Featured products section start --> */
+
+.featured_product_continer{
+    height: 60vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.featured_img img{
+    width: 90%;
+    padding: 40px;
+
+}
+
+.featured_info h1{
+    font-size: 40px;
+    color: #0A0826;
+    margin-bottom: -20px;
+}
+
+.featured_info p{
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.featured_info .button{
+    text-decoration: none;
+    background-color: #E02C6D;
+    color: white;
+    padding: 10px 20px;
+}
+
+.link_button:hover{
+    background-color:#18191F;
+    color:white;
+}
+.button .fa-solid{
+    padding-left: 15px;
+}
+
+/* <!-- Featured products section end --> */
+
+/* <!-- main body section end --> */
+
+
+/* footer section start */
+footer{
+    height: 25vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer h4{
+    font-size: 30px;
+    padding: 25px 0 10px 10px;
+    font-weight: 700;
+
+}
+
+footer p{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+footer p a{
+    color: white;
+    font-size: 18px;
+    padding: 15px;
+}
+
+/* <!-- footer section end --> */
 
