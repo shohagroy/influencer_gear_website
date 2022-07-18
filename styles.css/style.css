@@ -16,9 +16,15 @@ body{
     text-decoration: none;
     background-color: #E02C6D;
     color: white;
-    padding: 10px 30px;
+    padding: 10px 20px;
     border-radius: 20px;
-
+}
+.link_button:hover{
+    background-color:#18191F;
+    color:white;
+}
+.link_button .fa-solid{
+    padding-left: 15px;
 }
 /* header section style start */
 .header_section{
@@ -37,12 +43,21 @@ body{
 
 .navigation ul li{
     list-style: none;
-    width: 80px;
 }
 
 .navigation ul li a{
     color: #3A3A3A;
     text-decoration: none;
+    padding: 20px;
+}
+.navigation ul li a:hover{
+    color: #E02C6D;
+    text-decoration: none;
+}
+
+.navigation ul li a .fa-solid{
+    font-size: 22px;
+
 }
 
 
