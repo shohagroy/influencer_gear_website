@@ -5,6 +5,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -49,14 +50,12 @@ body{
 .main_body{
     width: 90%;
     margin: 0 auto;
-    /* background-color: rgb(13, 114, 114); */
 }
 
 /* hero section style start */
 .main_continer{
     height: 85vh;
     width: 100%;
-    /* background-color: bisque; */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
@@ -81,10 +80,6 @@ body{
     margin-bottom: 30px;
 }
 
-.sub_contimer a{
-    
-}
-
 .hero_continer img{
     width: 28vw;
 }
@@ -107,9 +102,73 @@ body{
     padding: 8px 10px;
 }
 
-.main_body .other{
-    height: 100vh;
-    width: 100%;
-    background-color: red;
-    margin-top: 50px;
+/* hero section style end */
+
+
+/* Popular Collection style start */
+
+
+.popular_collection_main{
+    margin: 10vh auto;
+    width: 90%;
+
+
 }
+
+.popular_collection_main h2{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    padding: 30px;
+}
+
+.collections_continer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2vw;
+}
+
+.collection{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 1px 30px rgba(0, 0, 0, 0.208);
+}
+
+.collection .coll_img img{
+    width: 100%;
+    padding: 20px 20px 10px 20px;
+    border-radius: 20px;
+}
+
+.collection .coll_ditels{
+    padding: 0px 20px 20px 20px;
+}
+
+.collection .coll_ditels h3{
+    font-size: 28px;
+    color: #18191F;
+}
+
+.collection .coll_ditels h4{
+    font-size: 24px;
+    font-weight: 400;
+    color: #000000;
+}
+.collection .coll_ditels p .fa-solid{
+    font-size: 16px;
+    color: #FB8200;
+    padding: 10px 0px;
+}
+.collection .coll_ditels p span{
+    font-size: 14px;
+    font-weight: 700;
+    color: #5E6366;
+    padding: 10px 0px;
+}
+.collection .coll_ditels p{
+    font-size: 14px;
+    font-weight: 700;
+    color: #787885;
+}
+
+
