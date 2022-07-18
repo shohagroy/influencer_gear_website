@@ -121,13 +121,9 @@ body{
 
 
 /* Popular Collection style start */
-
-
 .popular_collection_main{
     margin: 10vh auto;
     width: 90%;
-
-
 }
 
 .popular_collection_main h2{
@@ -185,5 +181,18 @@ body{
     font-weight: 700;
     color: #787885;
 }
+
+.next_page{
+    color: #E02C6D;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    float: right;
+}
+.next_page i{
+    margin: 40px 10px;
+}
+
+/* <!-- popular collection section end --> */
 
 
