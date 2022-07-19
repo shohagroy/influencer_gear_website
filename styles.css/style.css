@@ -216,7 +216,6 @@ body{
 /* <!-- Featured products section start --> */
 
 .featured_product_continer{
-    height: 60vh;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
