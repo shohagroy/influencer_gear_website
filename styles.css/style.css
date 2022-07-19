@@ -86,7 +86,7 @@ body{
 
 /* hero section style start */
 .main_continer{
-    height: 85vh;
+    /* height: 85vh; */
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -354,6 +354,10 @@ footer p a{
         justify-content: center;
         align-items: center;
     }
+    
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
     
 }
 
