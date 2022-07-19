@@ -37,7 +37,7 @@ body{
 }
 
 .header_section .fa{
-    font-size: 30px;
+    font-size: 20px;
     display: none;
 }
 
@@ -297,6 +297,10 @@ footer p a{
 
 @media (max-width: 576px) {
 
+    .header_section h2{
+        font-size: 20px;
+
+    }
     .header_section .fa{
         display: block;
     }
